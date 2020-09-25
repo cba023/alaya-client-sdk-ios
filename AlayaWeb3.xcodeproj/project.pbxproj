@@ -1,0 +1,1087 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E4A953C591E9E5217EFB18B /* Pods_AlayaWeb3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CAA7B6647D4714A29661043 /* Pods_AlayaWeb3.framework */; };
+		9B23F95D351F5ADBFD4FF8A8 /* Pods_AlayaWeb3_AlayaWeb3Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD0AB48A9FA2310321B9916 /* Pods_AlayaWeb3_AlayaWeb3Tests.framework */; };
+		A6BC0B5A251CB8070015D427 /* Web3+completion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0AED251CB8070015D427 /* Web3+completion.swift */; };
+		A6BC0B5B251CB8070015D427 /* EthereumPublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0AF0251CB8070015D427 /* EthereumPublicKey.swift */; };
+		A6BC0B5C251CB8070015D427 /* EthereumAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0AF1251CB8070015D427 /* EthereumAddress.swift */; };
+		A6BC0B5D251CB8070015D427 /* EthereumPrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0AF2251CB8070015D427 /* EthereumPrivateKey.swift */; };
+		A6BC0B5E251CB8070015D427 /* EthereumTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0AF3251CB8070015D427 /* EthereumTransaction.swift */; };
+		A6BC0B5F251CB8070015D427 /* Web3Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0AF5251CB8070015D427 /* Web3Provider.swift */; };
+		A6BC0B60251CB8070015D427 /* Web3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0AF7251CB8070015D427 /* Web3.swift */; };
+		A6BC0B61251CB8070015D427 /* RLPItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0AF9251CB8070015D427 /* RLPItem.swift */; };
+		A6BC0B62251CB8070015D427 /* RLPEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0AFA251CB8070015D427 /* RLPEncoder.swift */; };
+		A6BC0B63251CB8070015D427 /* RLPItemConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0AFB251CB8070015D427 /* RLPItemConvertible.swift */; };
+		A6BC0B64251CB8070015D427 /* RLPDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0AFC251CB8070015D427 /* RLPDecoder.swift */; };
+		A6BC0B65251CB8070015D427 /* Types+RLPItemConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0AFD251CB8070015D427 /* Types+RLPItemConvertible.swift */; };
+		A6BC0B66251CB8070015D427 /* EthereumBlockObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0AFF251CB8070015D427 /* EthereumBlockObject.swift */; };
+		A6BC0B67251CB8070015D427 /* EthereumTransactionReceiptObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B00251CB8070015D427 /* EthereumTransactionReceiptObject.swift */; };
+		A6BC0B68251CB8070015D427 /* EthereumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B01251CB8070015D427 /* EthereumData.swift */; };
+		A6BC0B69251CB8070015D427 /* RPCRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B02251CB8070015D427 /* RPCRequest.swift */; };
+		A6BC0B6A251CB8070015D427 /* EthereumSyncStatusObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B03251CB8070015D427 /* EthereumSyncStatusObject.swift */; };
+		A6BC0B6B251CB8070015D427 /* EthereumValueConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B04251CB8070015D427 /* EthereumValueConvertible.swift */; };
+		A6BC0B6C251CB8070015D427 /* EthereumQuantity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B05251CB8070015D427 /* EthereumQuantity.swift */; };
+		A6BC0B6D251CB8070015D427 /* EthereumTransactionObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B06251CB8070015D427 /* EthereumTransactionObject.swift */; };
+		A6BC0B6E251CB8070015D427 /* EthereumValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B07251CB8070015D427 /* EthereumValue.swift */; };
+		A6BC0B6F251CB8070015D427 /* RPCResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B08251CB8070015D427 /* RPCResponse.swift */; };
+		A6BC0B70251CB8070015D427 /* EthereumCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B09251CB8070015D427 /* EthereumCall.swift */; };
+		A6BC0B71251CB8070015D427 /* ProgramVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B0A251CB8070015D427 /* ProgramVersion.swift */; };
+		A6BC0B72251CB8070015D427 /* EthereumQuantityTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B0B251CB8070015D427 /* EthereumQuantityTag.swift */; };
+		A6BC0B73251CB8070015D427 /* PlatonError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B0C251CB8070015D427 /* PlatonError.swift */; };
+		A6BC0B74251CB8070015D427 /* Types+EthereumValueConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B0D251CB8070015D427 /* Types+EthereumValueConvertible.swift */; };
+		A6BC0B75251CB8070015D427 /* EthereumLogObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B0E251CB8070015D427 /* EthereumLogObject.swift */; };
+		A6BC0B76251CB8070015D427 /* String+BytesConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B10251CB8070015D427 /* String+BytesConvertible.swift */; };
+		A6BC0B77251CB8070015D427 /* Bytes+HexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B11251CB8070015D427 /* Bytes+HexString.swift */; };
+		A6BC0B78251CB8070015D427 /* UInt+BytesRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B12251CB8070015D427 /* UInt+BytesRepresentable.swift */; };
+		A6BC0B79251CB8070015D427 /* Bytes+TrimLeadingZeros.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B13251CB8070015D427 /* Bytes+TrimLeadingZeros.swift */; };
+		A6BC0B7A251CB8070015D427 /* Bytes+SecureRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B14251CB8070015D427 /* Bytes+SecureRandom.swift */; };
+		A6BC0B7B251CB8070015D427 /* String+HexBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B15251CB8070015D427 /* String+HexBytes.swift */; };
+		A6BC0B7C251CB8070015D427 /* BytesConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B16251CB8070015D427 /* BytesConvertible.swift */; };
+		A6BC0B7D251CB8070015D427 /* String+Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B17251CB8070015D427 /* String+Conversion.swift */; };
+		A6BC0B7E251CB8070015D427 /* Data+BytesConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B18251CB8070015D427 /* Data+BytesConvertible.swift */; };
+		A6BC0B7F251CB8070015D427 /* CharacterSet+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B19251CB8070015D427 /* CharacterSet+Hex.swift */; };
+		A6BC0B80251CB8070015D427 /* BigUInt+BytesConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B1A251CB8070015D427 /* BigUInt+BytesConvertible.swift */; };
+		A6BC0B81251CB8070015D427 /* Bytes+UInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B1B251CB8070015D427 /* Bytes+UInt.swift */; };
+		A6BC0B82251CB8070015D427 /* Exports+Web3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B1C251CB8070015D427 /* Exports+Web3.swift */; };
+		A6BC0B83251CB8070015D427 /* Values+GeneralHashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B1D251CB8070015D427 /* Values+GeneralHashable.swift */; };
+		A6BC0B84251CB8070015D427 /* UnsignedInteger+BytesConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B1E251CB8070015D427 /* UnsignedInteger+BytesConvertible.swift */; };
+		A6BC0B85251CB8070015D427 /* Secp256k1+CTXCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B1F251CB8070015D427 /* Secp256k1+CTXCreator.swift */; };
+		A6BC0B86251CB8070015D427 /* IntsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B20251CB8070015D427 /* IntsExtensions.swift */; };
+		A6BC0B87251CB8070015D427 /* UnsignedInteger+Shifting.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B21251CB8070015D427 /* UnsignedInteger+Shifting.swift */; };
+		A6BC0B88251CB8070015D427 /* Eth+Contract.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B24251CB8070015D427 /* Eth+Contract.swift */; };
+		A6BC0B89251CB8070015D427 /* SolidityEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B25251CB8070015D427 /* SolidityEvent.swift */; };
+		A6BC0B8A251CB8070015D427 /* ABIObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B26251CB8070015D427 /* ABIObject.swift */; };
+		A6BC0B8B251CB8070015D427 /* ERC20.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B27251CB8070015D427 /* ERC20.swift */; };
+		A6BC0B8C251CB8070015D427 /* ERC721.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B28251CB8070015D427 /* ERC721.swift */; };
+		A6BC0B8D251CB8070015D427 /* ERC165.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B29251CB8070015D427 /* ERC165.swift */; };
+		A6BC0B8E251CB8070015D427 /* ContractPromiseExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B2A251CB8070015D427 /* ContractPromiseExtensions.swift */; };
+		A6BC0B8F251CB8070015D427 /* SolidityFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B2B251CB8070015D427 /* SolidityFunction.swift */; };
+		A6BC0B90251CB8070015D427 /* EthereumContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B2C251CB8070015D427 /* EthereumContract.swift */; };
+		A6BC0B91251CB8070015D427 /* SolidityInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B2D251CB8070015D427 /* SolidityInvocation.swift */; };
+		A6BC0B92251CB8070015D427 /* Eth+ABI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B2F251CB8070015D427 /* Eth+ABI.swift */; };
+		A6BC0B93251CB8070015D427 /* ABIEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B30251CB8070015D427 /* ABIEncoder.swift */; };
+		A6BC0B94251CB8070015D427 /* ABIDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B31251CB8070015D427 /* ABIDecoder.swift */; };
+		A6BC0B95251CB8070015D427 /* SolidityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B32251CB8070015D427 /* SolidityType.swift */; };
+		A6BC0B96251CB8070015D427 /* SolidityType+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B33251CB8070015D427 /* SolidityType+Codable.swift */; };
+		A6BC0B97251CB8070015D427 /* SolidityWrappedValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B34251CB8070015D427 /* SolidityWrappedValue.swift */; };
+		A6BC0B98251CB8070015D427 /* ABI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B35251CB8070015D427 /* ABI.swift */; };
+		A6BC0B99251CB8070015D427 /* Data+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B36251CB8070015D427 /* Data+extension.swift */; };
+		A6BC0B9A251CB8070015D427 /* SolidityTuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B37251CB8070015D427 /* SolidityTuple.swift */; };
+		A6BC0B9B251CB8070015D427 /* ABIConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B38251CB8070015D427 /* ABIConvertible.swift */; };
+		A6BC0B9C251CB8070015D427 /* PlatonWeb3Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B39251CB8070015D427 /* PlatonWeb3Test.swift */; };
+		A6BC0B9D251CB8070015D427 /* AddrCoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B3B251CB8070015D427 /* AddrCoder.swift */; };
+		A6BC0B9E251CB8070015D427 /* Bech32.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B3C251CB8070015D427 /* Bech32.swift */; };
+		A6BC0B9F251CB8070015D427 /* PlatonContractCallResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B3D251CB8070015D427 /* PlatonContractCallResponse.swift */; };
+		A6BC0BA0251CB8070015D427 /* Web3+HTTPInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B3F251CB8070015D427 /* Web3+HTTPInitializer.swift */; };
+		A6BC0BA1251CB8070015D427 /* Web3HttpProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B40251CB8070015D427 /* Web3HttpProvider.swift */; };
+		A6BC0BA2251CB8070015D427 /* SlashContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B42251CB8070015D427 /* SlashContract.swift */; };
+		A6BC0BA3251CB8070015D427 /* PlatonConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B43251CB8070015D427 /* PlatonConfig.swift */; };
+		A6BC0BA4251CB8070015D427 /* StakingContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B44251CB8070015D427 /* StakingContract.swift */; };
+		A6BC0BA5251CB8070015D427 /* FuncType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B45251CB8070015D427 /* FuncType.swift */; };
+		A6BC0BA6251CB8070015D427 /* Candidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B47251CB8070015D427 /* Candidate.swift */; };
+		A6BC0BA7251CB8070015D427 /* RelatedDelegateNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B48251CB8070015D427 /* RelatedDelegateNode.swift */; };
+		A6BC0BA8251CB8070015D427 /* TallyResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B49251CB8070015D427 /* TallyResult.swift */; };
+		A6BC0BA9251CB8070015D427 /* RestrictingPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B4A251CB8070015D427 /* RestrictingPlan.swift */; };
+		A6BC0BAA251CB8070015D427 /* RewardRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B4B251CB8070015D427 /* RewardRecord.swift */; };
+		A6BC0BAB251CB8070015D427 /* Verifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B4C251CB8070015D427 /* Verifier.swift */; };
+		A6BC0BAC251CB8070015D427 /* Proposal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B4D251CB8070015D427 /* Proposal.swift */; };
+		A6BC0BAD251CB8070015D427 /* NodeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B4E251CB8070015D427 /* NodeInfo.swift */; };
+		A6BC0BAE251CB8070015D427 /* RestrictingInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B4F251CB8070015D427 /* RestrictingInfo.swift */; };
+		A6BC0BAF251CB8080015D427 /* Govern.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B50251CB8070015D427 /* Govern.swift */; };
+		A6BC0BB0251CB8080015D427 /* PlantonContractProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B51251CB8070015D427 /* PlantonContractProtocol.swift */; };
+		A6BC0BB1251CB8080015D427 /* RestrictingPlanContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B52251CB8070015D427 /* RestrictingPlanContract.swift */; };
+		A6BC0BB2251CB8080015D427 /* RewardContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B53251CB8070015D427 /* RewardContract.swift */; };
+		A6BC0BB3251CB8080015D427 /* ProposalContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B54251CB8070015D427 /* ProposalContract.swift */; };
+		A6BC0BB4251CB8080015D427 /* Web3+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B55251CB8070015D427 /* Web3+Extensions.swift */; };
+		A6BC0BB5251CB8080015D427 /* Debugger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B57251CB8070015D427 /* Debugger.swift */; };
+		A6BC0BB6251CB8080015D427 /* Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BC0B59251CB8070015D427 /* Parameters.swift */; };
+		A6C983BA251CA86700C4A08D /* AlayaWeb3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C983B0251CA86700C4A08D /* AlayaWeb3.framework */; };
+		A6C983BF251CA86700C4A08D /* AlayaWeb3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C983BE251CA86700C4A08D /* AlayaWeb3Tests.swift */; };
+		A6C983C1251CA86700C4A08D /* AlayaWeb3.h in Headers */ = {isa = PBXBuildFile; fileRef = A6C983B3251CA86700C4A08D /* AlayaWeb3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6C983BB251CA86700C4A08D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6C983A7251CA86700C4A08D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6C983AF251CA86700C4A08D;
+			remoteInfo = AlayaWeb3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AD0AB48A9FA2310321B9916 /* Pods_AlayaWeb3_AlayaWeb3Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlayaWeb3_AlayaWeb3Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CAA7B6647D4714A29661043 /* Pods_AlayaWeb3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlayaWeb3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92FE676ED83DE5A81BC2B5EE /* Pods-AlayaWeb3-AlayaWeb3Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlayaWeb3-AlayaWeb3Tests.release.xcconfig"; path = "Target Support Files/Pods-AlayaWeb3-AlayaWeb3Tests/Pods-AlayaWeb3-AlayaWeb3Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A36DBF6209FEBDC591F648F1 /* Pods-AlayaWeb3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlayaWeb3.release.xcconfig"; path = "Target Support Files/Pods-AlayaWeb3/Pods-AlayaWeb3.release.xcconfig"; sourceTree = "<group>"; };
+		A6BC0AED251CB8070015D427 /* Web3+completion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Web3+completion.swift"; sourceTree = "<group>"; };
+		A6BC0AF0251CB8070015D427 /* EthereumPublicKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EthereumPublicKey.swift; sourceTree = "<group>"; };
+		A6BC0AF1251CB8070015D427 /* EthereumAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EthereumAddress.swift; sourceTree = "<group>"; };
+		A6BC0AF2251CB8070015D427 /* EthereumPrivateKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EthereumPrivateKey.swift; sourceTree = "<group>"; };
+		A6BC0AF3251CB8070015D427 /* EthereumTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EthereumTransaction.swift; sourceTree = "<group>"; };
+		A6BC0AF5251CB8070015D427 /* Web3Provider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Web3Provider.swift; sourceTree = "<group>"; };
+		A6BC0AF7251CB8070015D427 /* Web3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Web3.swift; sourceTree = "<group>"; };
+		A6BC0AF9251CB8070015D427 /* RLPItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLPItem.swift; sourceTree = "<group>"; };
+		A6BC0AFA251CB8070015D427 /* RLPEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLPEncoder.swift; sourceTree = "<group>"; };
+		A6BC0AFB251CB8070015D427 /* RLPItemConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLPItemConvertible.swift; sourceTree = "<group>"; };
+		A6BC0AFC251CB8070015D427 /* RLPDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLPDecoder.swift; sourceTree = "<group>"; };
+		A6BC0AFD251CB8070015D427 /* Types+RLPItemConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Types+RLPItemConvertible.swift"; sourceTree = "<group>"; };
+		A6BC0AFF251CB8070015D427 /* EthereumBlockObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EthereumBlockObject.swift; sourceTree = "<group>"; };
+		A6BC0B00251CB8070015D427 /* EthereumTransactionReceiptObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EthereumTransactionReceiptObject.swift; sourceTree = "<group>"; };
+		A6BC0B01251CB8070015D427 /* EthereumData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EthereumData.swift; sourceTree = "<group>"; };
+		A6BC0B02251CB8070015D427 /* RPCRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPCRequest.swift; sourceTree = "<group>"; };
+		A6BC0B03251CB8070015D427 /* EthereumSyncStatusObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EthereumSyncStatusObject.swift; sourceTree = "<group>"; };
+		A6BC0B04251CB8070015D427 /* EthereumValueConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EthereumValueConvertible.swift; sourceTree = "<group>"; };
+		A6BC0B05251CB8070015D427 /* EthereumQuantity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EthereumQuantity.swift; sourceTree = "<group>"; };
+		A6BC0B06251CB8070015D427 /* EthereumTransactionObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EthereumTransactionObject.swift; sourceTree = "<group>"; };
+		A6BC0B07251CB8070015D427 /* EthereumValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EthereumValue.swift; sourceTree = "<group>"; };
+		A6BC0B08251CB8070015D427 /* RPCResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPCResponse.swift; sourceTree = "<group>"; };
+		A6BC0B09251CB8070015D427 /* EthereumCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EthereumCall.swift; sourceTree = "<group>"; };
+		A6BC0B0A251CB8070015D427 /* ProgramVersion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramVersion.swift; sourceTree = "<group>"; };
+		A6BC0B0B251CB8070015D427 /* EthereumQuantityTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EthereumQuantityTag.swift; sourceTree = "<group>"; };
+		A6BC0B0C251CB8070015D427 /* PlatonError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlatonError.swift; sourceTree = "<group>"; };
+		A6BC0B0D251CB8070015D427 /* Types+EthereumValueConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Types+EthereumValueConvertible.swift"; sourceTree = "<group>"; };
+		A6BC0B0E251CB8070015D427 /* EthereumLogObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EthereumLogObject.swift; sourceTree = "<group>"; };
+		A6BC0B10251CB8070015D427 /* String+BytesConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+BytesConvertible.swift"; sourceTree = "<group>"; };
+		A6BC0B11251CB8070015D427 /* Bytes+HexString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bytes+HexString.swift"; sourceTree = "<group>"; };
+		A6BC0B12251CB8070015D427 /* UInt+BytesRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UInt+BytesRepresentable.swift"; sourceTree = "<group>"; };
+		A6BC0B13251CB8070015D427 /* Bytes+TrimLeadingZeros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bytes+TrimLeadingZeros.swift"; sourceTree = "<group>"; };
+		A6BC0B14251CB8070015D427 /* Bytes+SecureRandom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bytes+SecureRandom.swift"; sourceTree = "<group>"; };
+		A6BC0B15251CB8070015D427 /* String+HexBytes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+HexBytes.swift"; sourceTree = "<group>"; };
+		A6BC0B16251CB8070015D427 /* BytesConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BytesConvertible.swift; sourceTree = "<group>"; };
+		A6BC0B17251CB8070015D427 /* String+Conversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Conversion.swift"; sourceTree = "<group>"; };
+		A6BC0B18251CB8070015D427 /* Data+BytesConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+BytesConvertible.swift"; sourceTree = "<group>"; };
+		A6BC0B19251CB8070015D427 /* CharacterSet+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CharacterSet+Hex.swift"; sourceTree = "<group>"; };
+		A6BC0B1A251CB8070015D427 /* BigUInt+BytesConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BigUInt+BytesConvertible.swift"; sourceTree = "<group>"; };
+		A6BC0B1B251CB8070015D427 /* Bytes+UInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bytes+UInt.swift"; sourceTree = "<group>"; };
+		A6BC0B1C251CB8070015D427 /* Exports+Web3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Exports+Web3.swift"; sourceTree = "<group>"; };
+		A6BC0B1D251CB8070015D427 /* Values+GeneralHashable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Values+GeneralHashable.swift"; sourceTree = "<group>"; };
+		A6BC0B1E251CB8070015D427 /* UnsignedInteger+BytesConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UnsignedInteger+BytesConvertible.swift"; sourceTree = "<group>"; };
+		A6BC0B1F251CB8070015D427 /* Secp256k1+CTXCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Secp256k1+CTXCreator.swift"; sourceTree = "<group>"; };
+		A6BC0B20251CB8070015D427 /* IntsExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntsExtensions.swift; sourceTree = "<group>"; };
+		A6BC0B21251CB8070015D427 /* UnsignedInteger+Shifting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UnsignedInteger+Shifting.swift"; sourceTree = "<group>"; };
+		A6BC0B24251CB8070015D427 /* Eth+Contract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Eth+Contract.swift"; sourceTree = "<group>"; };
+		A6BC0B25251CB8070015D427 /* SolidityEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolidityEvent.swift; sourceTree = "<group>"; };
+		A6BC0B26251CB8070015D427 /* ABIObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABIObject.swift; sourceTree = "<group>"; };
+		A6BC0B27251CB8070015D427 /* ERC20.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ERC20.swift; sourceTree = "<group>"; };
+		A6BC0B28251CB8070015D427 /* ERC721.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ERC721.swift; sourceTree = "<group>"; };
+		A6BC0B29251CB8070015D427 /* ERC165.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ERC165.swift; sourceTree = "<group>"; };
+		A6BC0B2A251CB8070015D427 /* ContractPromiseExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContractPromiseExtensions.swift; sourceTree = "<group>"; };
+		A6BC0B2B251CB8070015D427 /* SolidityFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolidityFunction.swift; sourceTree = "<group>"; };
+		A6BC0B2C251CB8070015D427 /* EthereumContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EthereumContract.swift; sourceTree = "<group>"; };
+		A6BC0B2D251CB8070015D427 /* SolidityInvocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolidityInvocation.swift; sourceTree = "<group>"; };
+		A6BC0B2F251CB8070015D427 /* Eth+ABI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Eth+ABI.swift"; sourceTree = "<group>"; };
+		A6BC0B30251CB8070015D427 /* ABIEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABIEncoder.swift; sourceTree = "<group>"; };
+		A6BC0B31251CB8070015D427 /* ABIDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABIDecoder.swift; sourceTree = "<group>"; };
+		A6BC0B32251CB8070015D427 /* SolidityType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolidityType.swift; sourceTree = "<group>"; };
+		A6BC0B33251CB8070015D427 /* SolidityType+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SolidityType+Codable.swift"; sourceTree = "<group>"; };
+		A6BC0B34251CB8070015D427 /* SolidityWrappedValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolidityWrappedValue.swift; sourceTree = "<group>"; };
+		A6BC0B35251CB8070015D427 /* ABI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABI.swift; sourceTree = "<group>"; };
+		A6BC0B36251CB8070015D427 /* Data+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+extension.swift"; sourceTree = "<group>"; };
+		A6BC0B37251CB8070015D427 /* SolidityTuple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolidityTuple.swift; sourceTree = "<group>"; };
+		A6BC0B38251CB8070015D427 /* ABIConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABIConvertible.swift; sourceTree = "<group>"; };
+		A6BC0B39251CB8070015D427 /* PlatonWeb3Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlatonWeb3Test.swift; sourceTree = "<group>"; };
+		A6BC0B3B251CB8070015D427 /* AddrCoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddrCoder.swift; sourceTree = "<group>"; };
+		A6BC0B3C251CB8070015D427 /* Bech32.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bech32.swift; sourceTree = "<group>"; };
+		A6BC0B3D251CB8070015D427 /* PlatonContractCallResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlatonContractCallResponse.swift; sourceTree = "<group>"; };
+		A6BC0B3F251CB8070015D427 /* Web3+HTTPInitializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Web3+HTTPInitializer.swift"; sourceTree = "<group>"; };
+		A6BC0B40251CB8070015D427 /* Web3HttpProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Web3HttpProvider.swift; sourceTree = "<group>"; };
+		A6BC0B42251CB8070015D427 /* SlashContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlashContract.swift; sourceTree = "<group>"; };
+		A6BC0B43251CB8070015D427 /* PlatonConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlatonConfig.swift; sourceTree = "<group>"; };
+		A6BC0B44251CB8070015D427 /* StakingContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StakingContract.swift; sourceTree = "<group>"; };
+		A6BC0B45251CB8070015D427 /* FuncType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuncType.swift; sourceTree = "<group>"; };
+		A6BC0B47251CB8070015D427 /* Candidate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Candidate.swift; sourceTree = "<group>"; };
+		A6BC0B48251CB8070015D427 /* RelatedDelegateNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelatedDelegateNode.swift; sourceTree = "<group>"; };
+		A6BC0B49251CB8070015D427 /* TallyResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TallyResult.swift; sourceTree = "<group>"; };
+		A6BC0B4A251CB8070015D427 /* RestrictingPlan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestrictingPlan.swift; sourceTree = "<group>"; };
+		A6BC0B4B251CB8070015D427 /* RewardRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardRecord.swift; sourceTree = "<group>"; };
+		A6BC0B4C251CB8070015D427 /* Verifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Verifier.swift; sourceTree = "<group>"; };
+		A6BC0B4D251CB8070015D427 /* Proposal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Proposal.swift; sourceTree = "<group>"; };
+		A6BC0B4E251CB8070015D427 /* NodeInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NodeInfo.swift; sourceTree = "<group>"; };
+		A6BC0B4F251CB8070015D427 /* RestrictingInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestrictingInfo.swift; sourceTree = "<group>"; };
+		A6BC0B50251CB8070015D427 /* Govern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Govern.swift; sourceTree = "<group>"; };
+		A6BC0B51251CB8070015D427 /* PlantonContractProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantonContractProtocol.swift; sourceTree = "<group>"; };
+		A6BC0B52251CB8070015D427 /* RestrictingPlanContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestrictingPlanContract.swift; sourceTree = "<group>"; };
+		A6BC0B53251CB8070015D427 /* RewardContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardContract.swift; sourceTree = "<group>"; };
+		A6BC0B54251CB8070015D427 /* ProposalContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProposalContract.swift; sourceTree = "<group>"; };
+		A6BC0B55251CB8070015D427 /* Web3+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Web3+Extensions.swift"; sourceTree = "<group>"; };
+		A6BC0B57251CB8070015D427 /* Debugger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debugger.swift; sourceTree = "<group>"; };
+		A6BC0B59251CB8070015D427 /* Parameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parameters.swift; sourceTree = "<group>"; };
+		A6C983B0251CA86700C4A08D /* AlayaWeb3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlayaWeb3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C983B3251CA86700C4A08D /* AlayaWeb3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlayaWeb3.h; sourceTree = "<group>"; };
+		A6C983B4251CA86700C4A08D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6C983B9251CA86700C4A08D /* AlayaWeb3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlayaWeb3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C983BE251CA86700C4A08D /* AlayaWeb3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlayaWeb3Tests.swift; sourceTree = "<group>"; };
+		A6C983C0251CA86700C4A08D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEB53CE93CF8ED94D28C80D1 /* Pods-AlayaWeb3-AlayaWeb3Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlayaWeb3-AlayaWeb3Tests.debug.xcconfig"; path = "Target Support Files/Pods-AlayaWeb3-AlayaWeb3Tests/Pods-AlayaWeb3-AlayaWeb3Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EEDD51B2629F562092EEAEAF /* Pods-AlayaWeb3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlayaWeb3.debug.xcconfig"; path = "Target Support Files/Pods-AlayaWeb3/Pods-AlayaWeb3.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6C983AD251CA86700C4A08D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4A953C591E9E5217EFB18B /* Pods_AlayaWeb3.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6C983B6251CA86700C4A08D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C983BA251CA86700C4A08D /* AlayaWeb3.framework in Frameworks */,
+				9B23F95D351F5ADBFD4FF8A8 /* Pods_AlayaWeb3_AlayaWeb3Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7668EBD49ECF7AE3B51E4CFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EEDD51B2629F562092EEAEAF /* Pods-AlayaWeb3.debug.xcconfig */,
+				A36DBF6209FEBDC591F648F1 /* Pods-AlayaWeb3.release.xcconfig */,
+				DEB53CE93CF8ED94D28C80D1 /* Pods-AlayaWeb3-AlayaWeb3Tests.debug.xcconfig */,
+				92FE676ED83DE5A81BC2B5EE /* Pods-AlayaWeb3-AlayaWeb3Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A6BC0AEA251CB8070015D427 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				A6BC0AEB251CB8070015D427 /* Web3 */,
+				A6BC0B58251CB8070015D427 /* Parameters */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		A6BC0AEB251CB8070015D427 /* Web3 */ = {
+			isa = PBXGroup;
+			children = (
+				A6BC0AEC251CB8070015D427 /* Classes */,
+			);
+			path = Web3;
+			sourceTree = "<group>";
+		};
+		A6BC0AEC251CB8070015D427 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A6BC0AED251CB8070015D427 /* Web3+completion.swift */,
+				A6BC0AEE251CB8070015D427 /* Core */,
+				A6BC0B22251CB8070015D427 /* ContractABI */,
+				A6BC0B39251CB8070015D427 /* PlatonWeb3Test.swift */,
+				A6BC0B3A251CB8070015D427 /* BitcoinKit */,
+				A6BC0B3D251CB8070015D427 /* PlatonContractCallResponse.swift */,
+				A6BC0B3E251CB8070015D427 /* FoundationHTTP */,
+				A6BC0B41251CB8070015D427 /* Contracts */,
+				A6BC0B55251CB8070015D427 /* Web3+Extensions.swift */,
+				A6BC0B56251CB8070015D427 /* Debugger */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A6BC0AEE251CB8070015D427 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A6BC0AEF251CB8070015D427 /* Transaction */,
+				A6BC0AF4251CB8070015D427 /* Providers */,
+				A6BC0AF6251CB8070015D427 /* Web3 */,
+				A6BC0AF8251CB8070015D427 /* RLP */,
+				A6BC0AFE251CB8070015D427 /* Json */,
+				A6BC0B0F251CB8070015D427 /* Toolbox */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A6BC0AEF251CB8070015D427 /* Transaction */ = {
+			isa = PBXGroup;
+			children = (
+				A6BC0AF0251CB8070015D427 /* EthereumPublicKey.swift */,
+				A6BC0AF1251CB8070015D427 /* EthereumAddress.swift */,
+				A6BC0AF2251CB8070015D427 /* EthereumPrivateKey.swift */,
+				A6BC0AF3251CB8070015D427 /* EthereumTransaction.swift */,
+			);
+			path = Transaction;
+			sourceTree = "<group>";
+		};
+		A6BC0AF4251CB8070015D427 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				A6BC0AF5251CB8070015D427 /* Web3Provider.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		A6BC0AF6251CB8070015D427 /* Web3 */ = {
+			isa = PBXGroup;
+			children = (
+				A6BC0AF7251CB8070015D427 /* Web3.swift */,
+			);
+			path = Web3;
+			sourceTree = "<group>";
+		};
+		A6BC0AF8251CB8070015D427 /* RLP */ = {
+			isa = PBXGroup;
+			children = (
+				A6BC0AF9251CB8070015D427 /* RLPItem.swift */,
+				A6BC0AFA251CB8070015D427 /* RLPEncoder.swift */,
+				A6BC0AFB251CB8070015D427 /* RLPItemConvertible.swift */,
+				A6BC0AFC251CB8070015D427 /* RLPDecoder.swift */,
+				A6BC0AFD251CB8070015D427 /* Types+RLPItemConvertible.swift */,
+			);
+			path = RLP;
+			sourceTree = "<group>";
+		};
+		A6BC0AFE251CB8070015D427 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				A6BC0AFF251CB8070015D427 /* EthereumBlockObject.swift */,
+				A6BC0B00251CB8070015D427 /* EthereumTransactionReceiptObject.swift */,
+				A6BC0B01251CB8070015D427 /* EthereumData.swift */,
+				A6BC0B02251CB8070015D427 /* RPCRequest.swift */,
+				A6BC0B03251CB8070015D427 /* EthereumSyncStatusObject.swift */,
+				A6BC0B04251CB8070015D427 /* EthereumValueConvertible.swift */,
+				A6BC0B05251CB8070015D427 /* EthereumQuantity.swift */,
+				A6BC0B06251CB8070015D427 /* EthereumTransactionObject.swift */,
+				A6BC0B07251CB8070015D427 /* EthereumValue.swift */,
+				A6BC0B08251CB8070015D427 /* RPCResponse.swift */,
+				A6BC0B09251CB8070015D427 /* EthereumCall.swift */,
+				A6BC0B0A251CB8070015D427 /* ProgramVersion.swift */,
+				A6BC0B0B251CB8070015D427 /* EthereumQuantityTag.swift */,
+				A6BC0B0C251CB8070015D427 /* PlatonError.swift */,
+				A6BC0B0D251CB8070015D427 /* Types+EthereumValueConvertible.swift */,
+				A6BC0B0E251CB8070015D427 /* EthereumLogObject.swift */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		A6BC0B0F251CB8070015D427 /* Toolbox */ = {
+			isa = PBXGroup;
+			children = (
+				A6BC0B10251CB8070015D427 /* String+BytesConvertible.swift */,
+				A6BC0B11251CB8070015D427 /* Bytes+HexString.swift */,
+				A6BC0B12251CB8070015D427 /* UInt+BytesRepresentable.swift */,
+				A6BC0B13251CB8070015D427 /* Bytes+TrimLeadingZeros.swift */,
+				A6BC0B14251CB8070015D427 /* Bytes+SecureRandom.swift */,
+				A6BC0B15251CB8070015D427 /* String+HexBytes.swift */,
+				A6BC0B16251CB8070015D427 /* BytesConvertible.swift */,
+				A6BC0B17251CB8070015D427 /* String+Conversion.swift */,
+				A6BC0B18251CB8070015D427 /* Data+BytesConvertible.swift */,
+				A6BC0B19251CB8070015D427 /* CharacterSet+Hex.swift */,
+				A6BC0B1A251CB8070015D427 /* BigUInt+BytesConvertible.swift */,
+				A6BC0B1B251CB8070015D427 /* Bytes+UInt.swift */,
+				A6BC0B1C251CB8070015D427 /* Exports+Web3.swift */,
+				A6BC0B1D251CB8070015D427 /* Values+GeneralHashable.swift */,
+				A6BC0B1E251CB8070015D427 /* UnsignedInteger+BytesConvertible.swift */,
+				A6BC0B1F251CB8070015D427 /* Secp256k1+CTXCreator.swift */,
+				A6BC0B20251CB8070015D427 /* IntsExtensions.swift */,
+				A6BC0B21251CB8070015D427 /* UnsignedInteger+Shifting.swift */,
+			);
+			path = Toolbox;
+			sourceTree = "<group>";
+		};
+		A6BC0B22251CB8070015D427 /* ContractABI */ = {
+			isa = PBXGroup;
+			children = (
+				A6BC0B23251CB8070015D427 /* Contract */,
+				A6BC0B2E251CB8070015D427 /* ABI */,
+			);
+			path = ContractABI;
+			sourceTree = "<group>";
+		};
+		A6BC0B23251CB8070015D427 /* Contract */ = {
+			isa = PBXGroup;
+			children = (
+				A6BC0B24251CB8070015D427 /* Eth+Contract.swift */,
+				A6BC0B25251CB8070015D427 /* SolidityEvent.swift */,
+				A6BC0B26251CB8070015D427 /* ABIObject.swift */,
+				A6BC0B27251CB8070015D427 /* ERC20.swift */,
+				A6BC0B28251CB8070015D427 /* ERC721.swift */,
+				A6BC0B29251CB8070015D427 /* ERC165.swift */,
+				A6BC0B2A251CB8070015D427 /* ContractPromiseExtensions.swift */,
+				A6BC0B2B251CB8070015D427 /* SolidityFunction.swift */,
+				A6BC0B2C251CB8070015D427 /* EthereumContract.swift */,
+				A6BC0B2D251CB8070015D427 /* SolidityInvocation.swift */,
+			);
+			path = Contract;
+			sourceTree = "<group>";
+		};
+		A6BC0B2E251CB8070015D427 /* ABI */ = {
+			isa = PBXGroup;
+			children = (
+				A6BC0B2F251CB8070015D427 /* Eth+ABI.swift */,
+				A6BC0B30251CB8070015D427 /* ABIEncoder.swift */,
+				A6BC0B31251CB8070015D427 /* ABIDecoder.swift */,
+				A6BC0B32251CB8070015D427 /* SolidityType.swift */,
+				A6BC0B33251CB8070015D427 /* SolidityType+Codable.swift */,
+				A6BC0B34251CB8070015D427 /* SolidityWrappedValue.swift */,
+				A6BC0B35251CB8070015D427 /* ABI.swift */,
+				A6BC0B36251CB8070015D427 /* Data+extension.swift */,
+				A6BC0B37251CB8070015D427 /* SolidityTuple.swift */,
+				A6BC0B38251CB8070015D427 /* ABIConvertible.swift */,
+			);
+			path = ABI;
+			sourceTree = "<group>";
+		};
+		A6BC0B3A251CB8070015D427 /* BitcoinKit */ = {
+			isa = PBXGroup;
+			children = (
+				A6BC0B3B251CB8070015D427 /* AddrCoder.swift */,
+				A6BC0B3C251CB8070015D427 /* Bech32.swift */,
+			);
+			path = BitcoinKit;
+			sourceTree = "<group>";
+		};
+		A6BC0B3E251CB8070015D427 /* FoundationHTTP */ = {
+			isa = PBXGroup;
+			children = (
+				A6BC0B3F251CB8070015D427 /* Web3+HTTPInitializer.swift */,
+				A6BC0B40251CB8070015D427 /* Web3HttpProvider.swift */,
+			);
+			path = FoundationHTTP;
+			sourceTree = "<group>";
+		};
+		A6BC0B41251CB8070015D427 /* Contracts */ = {
+			isa = PBXGroup;
+			children = (
+				A6BC0B42251CB8070015D427 /* SlashContract.swift */,
+				A6BC0B43251CB8070015D427 /* PlatonConfig.swift */,
+				A6BC0B44251CB8070015D427 /* StakingContract.swift */,
+				A6BC0B45251CB8070015D427 /* FuncType.swift */,
+				A6BC0B46251CB8070015D427 /* Models */,
+				A6BC0B51251CB8070015D427 /* PlantonContractProtocol.swift */,
+				A6BC0B52251CB8070015D427 /* RestrictingPlanContract.swift */,
+				A6BC0B53251CB8070015D427 /* RewardContract.swift */,
+				A6BC0B54251CB8070015D427 /* ProposalContract.swift */,
+			);
+			path = Contracts;
+			sourceTree = "<group>";
+		};
+		A6BC0B46251CB8070015D427 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A6BC0B47251CB8070015D427 /* Candidate.swift */,
+				A6BC0B48251CB8070015D427 /* RelatedDelegateNode.swift */,
+				A6BC0B49251CB8070015D427 /* TallyResult.swift */,
+				A6BC0B4A251CB8070015D427 /* RestrictingPlan.swift */,
+				A6BC0B4B251CB8070015D427 /* RewardRecord.swift */,
+				A6BC0B4C251CB8070015D427 /* Verifier.swift */,
+				A6BC0B4D251CB8070015D427 /* Proposal.swift */,
+				A6BC0B4E251CB8070015D427 /* NodeInfo.swift */,
+				A6BC0B4F251CB8070015D427 /* RestrictingInfo.swift */,
+				A6BC0B50251CB8070015D427 /* Govern.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A6BC0B56251CB8070015D427 /* Debugger */ = {
+			isa = PBXGroup;
+			children = (
+				A6BC0B57251CB8070015D427 /* Debugger.swift */,
+			);
+			path = Debugger;
+			sourceTree = "<group>";
+		};
+		A6BC0B58251CB8070015D427 /* Parameters */ = {
+			isa = PBXGroup;
+			children = (
+				A6BC0B59251CB8070015D427 /* Parameters.swift */,
+			);
+			path = Parameters;
+			sourceTree = "<group>";
+		};
+		A6C983A6251CA86700C4A08D = {
+			isa = PBXGroup;
+			children = (
+				A6BC0AEA251CB8070015D427 /* source */,
+				A6C983B2251CA86700C4A08D /* AlayaWeb3 */,
+				A6C983BD251CA86700C4A08D /* AlayaWeb3Tests */,
+				A6C983B1251CA86700C4A08D /* Products */,
+				7668EBD49ECF7AE3B51E4CFB /* Pods */,
+				C80C3D5683B20E891F6A2DC0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A6C983B1251CA86700C4A08D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6C983B0251CA86700C4A08D /* AlayaWeb3.framework */,
+				A6C983B9251CA86700C4A08D /* AlayaWeb3Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6C983B2251CA86700C4A08D /* AlayaWeb3 */ = {
+			isa = PBXGroup;
+			children = (
+				A6C983B3251CA86700C4A08D /* AlayaWeb3.h */,
+				A6C983B4251CA86700C4A08D /* Info.plist */,
+			);
+			path = AlayaWeb3;
+			sourceTree = "<group>";
+		};
+		A6C983BD251CA86700C4A08D /* AlayaWeb3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A6C983BE251CA86700C4A08D /* AlayaWeb3Tests.swift */,
+				A6C983C0251CA86700C4A08D /* Info.plist */,
+			);
+			path = AlayaWeb3Tests;
+			sourceTree = "<group>";
+		};
+		C80C3D5683B20E891F6A2DC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CAA7B6647D4714A29661043 /* Pods_AlayaWeb3.framework */,
+				1AD0AB48A9FA2310321B9916 /* Pods_AlayaWeb3_AlayaWeb3Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A6C983AB251CA86700C4A08D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C983C1251CA86700C4A08D /* AlayaWeb3.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A6C983AF251CA86700C4A08D /* AlayaWeb3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6C983C4251CA86700C4A08D /* Build configuration list for PBXNativeTarget "AlayaWeb3" */;
+			buildPhases = (
+				872529C53B9E7C2BB9BCF3F1 /* [CP] Check Pods Manifest.lock */,
+				A6C983AB251CA86700C4A08D /* Headers */,
+				A6C983AC251CA86700C4A08D /* Sources */,
+				A6C983AD251CA86700C4A08D /* Frameworks */,
+				A6C983AE251CA86700C4A08D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlayaWeb3;
+			productName = AlayaWeb3;
+			productReference = A6C983B0251CA86700C4A08D /* AlayaWeb3.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A6C983B8251CA86700C4A08D /* AlayaWeb3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6C983C7251CA86700C4A08D /* Build configuration list for PBXNativeTarget "AlayaWeb3Tests" */;
+			buildPhases = (
+				2CF6F084C43D4C8FAFF740B6 /* [CP] Check Pods Manifest.lock */,
+				A6C983B5251CA86700C4A08D /* Sources */,
+				A6C983B6251CA86700C4A08D /* Frameworks */,
+				A6C983B7251CA86700C4A08D /* Resources */,
+				44244A559D0A809D27288257 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6C983BC251CA86700C4A08D /* PBXTargetDependency */,
+			);
+			name = AlayaWeb3Tests;
+			productName = AlayaWeb3Tests;
+			productReference = A6C983B9251CA86700C4A08D /* AlayaWeb3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6C983A7251CA86700C4A08D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					A6C983AF251CA86700C4A08D = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					A6C983B8251CA86700C4A08D = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = A6C983AA251CA86700C4A08D /* Build configuration list for PBXProject "AlayaWeb3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6C983A6251CA86700C4A08D;
+			productRefGroup = A6C983B1251CA86700C4A08D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6C983AF251CA86700C4A08D /* AlayaWeb3 */,
+				A6C983B8251CA86700C4A08D /* AlayaWeb3Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6C983AE251CA86700C4A08D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6C983B7251CA86700C4A08D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CF6F084C43D4C8FAFF740B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlayaWeb3-AlayaWeb3Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44244A559D0A809D27288257 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlayaWeb3-AlayaWeb3Tests/Pods-AlayaWeb3-AlayaWeb3Tests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlayaWeb3-AlayaWeb3Tests/Pods-AlayaWeb3-AlayaWeb3Tests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlayaWeb3-AlayaWeb3Tests/Pods-AlayaWeb3-AlayaWeb3Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		872529C53B9E7C2BB9BCF3F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlayaWeb3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6C983AC251CA86700C4A08D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6BC0B8B251CB8070015D427 /* ERC20.swift in Sources */,
+				A6BC0B8E251CB8070015D427 /* ContractPromiseExtensions.swift in Sources */,
+				A6BC0B5E251CB8070015D427 /* EthereumTransaction.swift in Sources */,
+				A6BC0BA5251CB8070015D427 /* FuncType.swift in Sources */,
+				A6BC0B6A251CB8070015D427 /* EthereumSyncStatusObject.swift in Sources */,
+				A6BC0B95251CB8070015D427 /* SolidityType.swift in Sources */,
+				A6BC0BAF251CB8080015D427 /* Govern.swift in Sources */,
+				A6BC0B75251CB8070015D427 /* EthereumLogObject.swift in Sources */,
+				A6BC0B9F251CB8070015D427 /* PlatonContractCallResponse.swift in Sources */,
+				A6BC0B92251CB8070015D427 /* Eth+ABI.swift in Sources */,
+				A6BC0B73251CB8070015D427 /* PlatonError.swift in Sources */,
+				A6BC0BB6251CB8080015D427 /* Parameters.swift in Sources */,
+				A6BC0B6E251CB8070015D427 /* EthereumValue.swift in Sources */,
+				A6BC0B63251CB8070015D427 /* RLPItemConvertible.swift in Sources */,
+				A6BC0B76251CB8070015D427 /* String+BytesConvertible.swift in Sources */,
+				A6BC0BAC251CB8070015D427 /* Proposal.swift in Sources */,
+				A6BC0B88251CB8070015D427 /* Eth+Contract.swift in Sources */,
+				A6BC0BAA251CB8070015D427 /* RewardRecord.swift in Sources */,
+				A6BC0B66251CB8070015D427 /* EthereumBlockObject.swift in Sources */,
+				A6BC0B5C251CB8070015D427 /* EthereumAddress.swift in Sources */,
+				A6BC0B65251CB8070015D427 /* Types+RLPItemConvertible.swift in Sources */,
+				A6BC0B7B251CB8070015D427 /* String+HexBytes.swift in Sources */,
+				A6BC0B5A251CB8070015D427 /* Web3+completion.swift in Sources */,
+				A6BC0B80251CB8070015D427 /* BigUInt+BytesConvertible.swift in Sources */,
+				A6BC0B81251CB8070015D427 /* Bytes+UInt.swift in Sources */,
+				A6BC0B62251CB8070015D427 /* RLPEncoder.swift in Sources */,
+				A6BC0BA2251CB8070015D427 /* SlashContract.swift in Sources */,
+				A6BC0BB5251CB8080015D427 /* Debugger.swift in Sources */,
+				A6BC0B96251CB8070015D427 /* SolidityType+Codable.swift in Sources */,
+				A6BC0B8D251CB8070015D427 /* ERC165.swift in Sources */,
+				A6BC0BAD251CB8070015D427 /* NodeInfo.swift in Sources */,
+				A6BC0B79251CB8070015D427 /* Bytes+TrimLeadingZeros.swift in Sources */,
+				A6BC0B9E251CB8070015D427 /* Bech32.swift in Sources */,
+				A6BC0B89251CB8070015D427 /* SolidityEvent.swift in Sources */,
+				A6BC0B67251CB8070015D427 /* EthereumTransactionReceiptObject.swift in Sources */,
+				A6BC0B6F251CB8070015D427 /* RPCResponse.swift in Sources */,
+				A6BC0B8A251CB8070015D427 /* ABIObject.swift in Sources */,
+				A6BC0B8F251CB8070015D427 /* SolidityFunction.swift in Sources */,
+				A6BC0B74251CB8070015D427 /* Types+EthereumValueConvertible.swift in Sources */,
+				A6BC0B72251CB8070015D427 /* EthereumQuantityTag.swift in Sources */,
+				A6BC0BAB251CB8070015D427 /* Verifier.swift in Sources */,
+				A6BC0B83251CB8070015D427 /* Values+GeneralHashable.swift in Sources */,
+				A6BC0B8C251CB8070015D427 /* ERC721.swift in Sources */,
+				A6BC0B87251CB8070015D427 /* UnsignedInteger+Shifting.swift in Sources */,
+				A6BC0B7F251CB8070015D427 /* CharacterSet+Hex.swift in Sources */,
+				A6BC0B9B251CB8070015D427 /* ABIConvertible.swift in Sources */,
+				A6BC0BA1251CB8070015D427 /* Web3HttpProvider.swift in Sources */,
+				A6BC0BA7251CB8070015D427 /* RelatedDelegateNode.swift in Sources */,
+				A6BC0BA9251CB8070015D427 /* RestrictingPlan.swift in Sources */,
+				A6BC0B98251CB8070015D427 /* ABI.swift in Sources */,
+				A6BC0BB2251CB8080015D427 /* RewardContract.swift in Sources */,
+				A6BC0B5F251CB8070015D427 /* Web3Provider.swift in Sources */,
+				A6BC0B7E251CB8070015D427 /* Data+BytesConvertible.swift in Sources */,
+				A6BC0B69251CB8070015D427 /* RPCRequest.swift in Sources */,
+				A6BC0B5D251CB8070015D427 /* EthereumPrivateKey.swift in Sources */,
+				A6BC0B61251CB8070015D427 /* RLPItem.swift in Sources */,
+				A6BC0B6C251CB8070015D427 /* EthereumQuantity.swift in Sources */,
+				A6BC0B6D251CB8070015D427 /* EthereumTransactionObject.swift in Sources */,
+				A6BC0B86251CB8070015D427 /* IntsExtensions.swift in Sources */,
+				A6BC0BAE251CB8070015D427 /* RestrictingInfo.swift in Sources */,
+				A6BC0B9C251CB8070015D427 /* PlatonWeb3Test.swift in Sources */,
+				A6BC0B97251CB8070015D427 /* SolidityWrappedValue.swift in Sources */,
+				A6BC0B9D251CB8070015D427 /* AddrCoder.swift in Sources */,
+				A6BC0BA3251CB8070015D427 /* PlatonConfig.swift in Sources */,
+				A6BC0BA6251CB8070015D427 /* Candidate.swift in Sources */,
+				A6BC0B70251CB8070015D427 /* EthereumCall.swift in Sources */,
+				A6BC0B94251CB8070015D427 /* ABIDecoder.swift in Sources */,
+				A6BC0B64251CB8070015D427 /* RLPDecoder.swift in Sources */,
+				A6BC0B85251CB8070015D427 /* Secp256k1+CTXCreator.swift in Sources */,
+				A6BC0B93251CB8070015D427 /* ABIEncoder.swift in Sources */,
+				A6BC0B99251CB8070015D427 /* Data+extension.swift in Sources */,
+				A6BC0B78251CB8070015D427 /* UInt+BytesRepresentable.swift in Sources */,
+				A6BC0B6B251CB8070015D427 /* EthereumValueConvertible.swift in Sources */,
+				A6BC0BB0251CB8080015D427 /* PlantonContractProtocol.swift in Sources */,
+				A6BC0BB4251CB8080015D427 /* Web3+Extensions.swift in Sources */,
+				A6BC0B60251CB8070015D427 /* Web3.swift in Sources */,
+				A6BC0B9A251CB8070015D427 /* SolidityTuple.swift in Sources */,
+				A6BC0B90251CB8070015D427 /* EthereumContract.swift in Sources */,
+				A6BC0B91251CB8070015D427 /* SolidityInvocation.swift in Sources */,
+				A6BC0B71251CB8070015D427 /* ProgramVersion.swift in Sources */,
+				A6BC0B5B251CB8070015D427 /* EthereumPublicKey.swift in Sources */,
+				A6BC0B7C251CB8070015D427 /* BytesConvertible.swift in Sources */,
+				A6BC0BA8251CB8070015D427 /* TallyResult.swift in Sources */,
+				A6BC0BB1251CB8080015D427 /* RestrictingPlanContract.swift in Sources */,
+				A6BC0B7A251CB8070015D427 /* Bytes+SecureRandom.swift in Sources */,
+				A6BC0B84251CB8070015D427 /* UnsignedInteger+BytesConvertible.swift in Sources */,
+				A6BC0B82251CB8070015D427 /* Exports+Web3.swift in Sources */,
+				A6BC0B77251CB8070015D427 /* Bytes+HexString.swift in Sources */,
+				A6BC0B7D251CB8070015D427 /* String+Conversion.swift in Sources */,
+				A6BC0B68251CB8070015D427 /* EthereumData.swift in Sources */,
+				A6BC0BB3251CB8080015D427 /* ProposalContract.swift in Sources */,
+				A6BC0BA4251CB8070015D427 /* StakingContract.swift in Sources */,
+				A6BC0BA0251CB8070015D427 /* Web3+HTTPInitializer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6C983B5251CA86700C4A08D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C983BF251CA86700C4A08D /* AlayaWeb3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6C983BC251CA86700C4A08D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6C983AF251CA86700C4A08D /* AlayaWeb3 */;
+			targetProxy = A6C983BB251CA86700C4A08D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A6C983C2251CA86700C4A08D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A6C983C3251CA86700C4A08D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A6C983C5251CA86700C4A08D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEDD51B2629F562092EEAEAF /* Pods-AlayaWeb3.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2SW57B88W2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AlayaWeb3/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.platon.aton.AlayaWeb3;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6C983C6251CA86700C4A08D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A36DBF6209FEBDC591F648F1 /* Pods-AlayaWeb3.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2SW57B88W2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AlayaWeb3/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.platon.aton.AlayaWeb3;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A6C983C8251CA86700C4A08D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEB53CE93CF8ED94D28C80D1 /* Pods-AlayaWeb3-AlayaWeb3Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2SW57B88W2;
+				INFOPLIST_FILE = AlayaWeb3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.platon.aton.AlayaWeb3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6C983C9251CA86700C4A08D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92FE676ED83DE5A81BC2B5EE /* Pods-AlayaWeb3-AlayaWeb3Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2SW57B88W2;
+				INFOPLIST_FILE = AlayaWeb3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.platon.aton.AlayaWeb3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6C983AA251CA86700C4A08D /* Build configuration list for PBXProject "AlayaWeb3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C983C2251CA86700C4A08D /* Debug */,
+				A6C983C3251CA86700C4A08D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6C983C4251CA86700C4A08D /* Build configuration list for PBXNativeTarget "AlayaWeb3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C983C5251CA86700C4A08D /* Debug */,
+				A6C983C6251CA86700C4A08D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6C983C7251CA86700C4A08D /* Build configuration list for PBXNativeTarget "AlayaWeb3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C983C8251CA86700C4A08D /* Debug */,
+				A6C983C9251CA86700C4A08D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6C983A7251CA86700C4A08D /* Project object */;
+}

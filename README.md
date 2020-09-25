@@ -1,5 +1,5 @@
 # Overview
-> platonWeb3 SDK is a Swift development kit for PlatON public chain provided by PlatON for iOS developers.
+> AlayaWeb3 SDK is a Swift development kit for PlatON public chain provided by PlatON for iOS developers.
 
 
 # Use
@@ -8,7 +8,7 @@
 
 
 ```
-pod 'platonWeb3', '~> 0.6.0'
+pod 'AlayaWeb3', '~> 0.13.2'
 ```
 
 

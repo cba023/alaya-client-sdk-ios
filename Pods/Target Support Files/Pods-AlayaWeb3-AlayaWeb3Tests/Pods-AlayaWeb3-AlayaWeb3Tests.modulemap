@@ -1,0 +1,6 @@
+framework module Pods_AlayaWeb3_AlayaWeb3Tests {
+  umbrella header "Pods-AlayaWeb3-AlayaWeb3Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
